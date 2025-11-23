@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ramya M — Test Engineer</title>
+  <style>
+    :root{--accent:#7c3aed;--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,#071028 0%, #0b1220 100%);color:#e6eef6}
+    .container{max-width:1000px;margin:36px auto;padding:24px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border-radius:12px;padding:28px;box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+    .hero{display:flex;gap:20px;align-items:center}
+    .avatar{width:120px;height:120px;border-radius:12px;flex:0 0 120px;object-fit:cover;border:3px solid rgba(124,58,237,0.18)}
+    h1{margin:0;font-size:28px}
+    .title{color:var(--muted);margin-top:6px}
+    .buttons{margin-top:14px;display:flex;gap:10px}
+    .btn{padding:10px 14px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+    .btn.secondary{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:22px}
+    .section{background:rgba(255,255,255,0.01);padding:18px;border-radius:10px}
+    .section h3{margin:0 0 10px 0}
+    ul{margin:0;padding-left:18px}
+    .skill-badges{display:flex;flex-wrap:wrap;gap:8px}
+    .badge{background:rgba(255,255,255,0.03);padding:6px 10px;border-radius:999px;font-size:13px;color:var(--muted)}
+    .exp-item{margin-bottom:12px}
+    .exp-item h4{margin:0}
+    .cert-img{width:100%;border-radius:8px;border:1px solid rgba(255,255,255,0.04)}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media(max-width:880px){.grid{grid-template-columns:1fr}.hero{flex-direction:row-reverse}.avatar{margin-left:auto}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="hero">
+        <div style="flex:1">
+          <h1>Ramya M</h1>
+          <div class="title">Test Engineer</div>
+          <div style="margin-top:14px;color:var(--muted);line-height:1.5">
+            <!-- Short professional summary (generated from resume snippets) -->
+            Embedded Hardware Test Engineer with 5+ years of R&D experience in EV systems, embedded boards, and hardware–software integration. Achieved 90–95% defect detection, automated test environments, and validated 40+ components using Python-based automation, CAN protocols, USB testing, and STM32 processor-level validation.
+          </div>
+          <div class="buttons">
+            <a class="btn" href="#contact">Contact</a>
+            <a class="btn secondary" href="#experience">Experience</a>
+            <button id="themeToggle" class="btn secondary" style="margin-left:auto;">Toggle Light/Dark</button>
+          </div>
+        </div>
+        <img class="avatar" src="/mnt/data/Photo.jpg" alt="Ramya M — profile photo" />
+      </div>
+
+      <div class="grid">
+        <div>
+          <div class="section" id="about">
+            <h3>About</h3>
+            <p style="color:var(--muted);margin-top:8px;line-height:1.6">I am a results-driven Test Engineer experienced in manual and automated testing for embedded hardware and firmware. I have executed over 20+ test campaigns across critical sensors and components, achieving high defect detection rates. I design and implement Python-based automated test setups, automate report generation, and collaborate with cross-functional teams to improve product quality and time-to-market. I enjoy solving complex problems in hardware test environments and continuously expanding my knowledge in AI-enabled testing methods.</p>
+          </div>
+
+          <div class="section" id="skills" style="margin-top:14px">
+            <h3>Skills</h3>
+            <div class="skill-badges" style="margin-top:8px">
+<div class="badge">Python Automation</div>
+<div class="badge">Embedded Hardware Testing</div>
+<div class="badge">STM32 MCU Validation</div>
+<div class="badge">CAN Protocols</div>
+<div class="badge">USB/Ethernet Testing</div>
+<div class="badge">Oscilloscopes & Logic Analyzers</div>
+<div class="badge">Data Logging & Analysis</div>
+<div class="badge">PLM / JIRA / Agile</div>
+<div class="badge">Hardware–Software Integration</div>
+</div>
+              <div class="badge">Python</div>
+              <div class="badge">Embedded Systems</div>
+              <div class="badge">Sensor Testing</div>
+              <div class="badge">Manual Testing</div>
+              <div class="badge">Electrical Testing</div>
+              <div class="badge">Data Analysis</div>
+              <div class="badge">Report Automation</div>
+            </div>
+          </div>
+
+          <div class="section" id="projects" style="margin-top:14px">
+<h3>Projects</h3>
+<div style="color:var(--muted);margin-top:8px">
+<div class="exp-item">
+<h4>Auto‑Generated Lab Report using Python with AI Assistance</h4>
+<div style="color:var(--muted);font-size:14px">Automated logs, graphs, summaries; winner of Best Idea Award 2025 (KONE).</div>
+</div>
+<div class="exp-item">
+<h4>Automated Throttle Test Setup</h4>
+<div style="color:var(--muted);font-size:14px">Reduced testing time from 3 days to 1 day using Python automation.</div>
+</div>
+<div class="exp-item">
+<h4>Transformer Validation Analytics</h4>
+<div style="color:var(--muted);font-size:14px">Automated data analysis and detected transformer defects using Python.</div>
+</div>
+<div class="exp-item">
+<h4>EV Peripheral Validation</h4>
+<div style="color:var(--muted);font-size:14px">Validated 40+ components including sensors, relays, MOSFETs, and MCBs; performed RCA and delivered fixes.</div>
+</div>
+</div>
+</div>
+              </div>
+              <div class="exp-item">
+                <h4>Sensor Validation Campaigns</h4>
+                <div style="color:var(--muted);font-size:14px">Executed manual and automated testing across 20+ critical sensors/components, achieving ~95% defect detection in pre-production validation cycles.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section" id="experience" style="margin-top:14px">
+            <h3>Experience (highlights)</h3>
+<div style="margin-top:8px">
+<div class="exp-item">
+<h4>Embedded Hardware Test Engineer — Ather Energy India Ltd (Apr 2025 – Present)</h4>
+<ul style="color:var(--muted);margin-top:6px">
+<li>Validated 20+ EV peripherals including sensors, switches, locksets, and communication modules.</li>
+<li>Developed automated test setups for throttle, latch, USB, and sensor validation — reducing manual effort by 30%.</li>
+<li>Performed USB electrical & communication validation under varied load and environmental conditions.</li>
+<li>Executed STM32F/STM32L4 MCU tests including ADC/DAC, boot sequence, and power‑cycle validation.</li>
+<li>Completed CAN interface testing ensuring firmware–hardware traceability.</li>
+<li>Led debugging using oscilloscopes, logic/CAN analyzers, and multimeters.</li>
+</ul>
+</div>
+<div class="exp-item">
+<h4>Test Engineer — KONE Elevators India Pvt Ltd (Apr 2021 – Apr 2025)</h4>
+<ul style="color:var(--muted);margin-top:6px">
+<li>Executed manual and automated validation for 20+ electrical sensors and components with 95% detection.</li>
+<li>Developed Python automation for electrical tests, reports, and waveform analysis.</li>
+<li>Debugged ERD sensor master boards at IC and circuit level.</li>
+<li>Validated memory sensors, analog/digital circuits, and transformer systems.</li>
+<li>Automated transformer data analysis and visualization.</li>
+<li>Awarded “Extra Miler” and “Inno Spark – Best Idea Award 2025”.</li>
+</ul>
+</div>
+</div>
+
+              <div class="exp-item">
+                <h4>Test Engineer — Ather (Current)</h4>
+                <ul style="color:var(--muted);margin-top:6px">
+                  <li>Currently contributing as a Test Engineer focusing on embedded test automation and reliability.</li>
+                  <li>Collaborating with hardware and firmware teams to integrate automated tests into CI pipelines.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <aside>
+          <div class="section">
+<h3>Contact</h3>
+<div style="color:var(--muted);margin-top:8px">Email: <a href="mailto:ramya26399@gmail.com" style="color:inherit;text-decoration:underline">ramya26399@gmail.com</a></div>
+<div style="color:var(--muted);margin-top:6px">Phone: 8667836599</div>
+<div style="color:var(--muted);margin-top:6px">LinkedIn: <a href="https://www.linkedin.com/in/ramya-m-b67233256" style="color:inherit;text-decoration:underline">linkedin.com/in/ramya-m-b67233256</a></div>
+</div>
+            <div style="color:var(--muted);margin-top:6px">LinkedIn: <a href="https://www.linkedin.com/in/" style="color:inherit;text-decoration:underline">/in/your-profile</a></div>
+            <div style="color:var(--muted);margin-top:6px">GitHub: <a href="https://github.com/" style="color:inherit;text-decoration:underline">github.com/yourusername</a></div>
+
+            <div style="margin-top:14px">
+              <a class="btn" href="/mnt/data/Ramya - Resume.pdf" download>Download Resume (Master)</a>
+            <a class="btn secondary" href="/mnt/data/Ramya M -  Resume (1).pdf" download>Download Resume (Alternate)</a>
+            </div>
+          </div>
+
+          <div class="section" style="margin-top:14px">
+            <h3>Certifications & Awards</h3>
+            <div style="margin-top:8px;color:var(--muted);font-size:14px">Generative AI and Large Language Models — IIM Bangalore (SWAYAM) — Score: 80% (Silver Medal)</div>
+            <div style="margin-top:6px;color:var(--muted);font-size:14px">Extra Miler Award — KONE (2022)</div>
+            <div style="margin-top:6px;color:var(--muted);font-size:14px">Inno Spark — Best Idea Award (2025)</div>
+            <img class="cert-img" src="/mnt/data/Screenshot_2025_0929_075727.png" alt="SWAYAM Certificate" style="margin-top:10px" />
+          </div>
+
+          <div class="section" style="margin-top:14px">
+            <h3>Quick Stats</h3>
+            <ul style="color:var(--muted);margin-top:8px">
+              <li>Years of Experience: 5+ years</li>
+              <li>Test Campaigns: 40+</li>
+              <li>Automation Rate: High (Python frameworks)</li>
+            </ul>
+          </div>
+
+          <div class="section" style="margin-top:14px">
+            <h3>Languages & Hobbies</h3>
+            <ul style="color:var(--muted);margin-top:8px">
+              <li>English — Advanced</li>
+              <li>Tamil — Native</li>
+              <li>Japanese — Beginner</li>
+            </ul>
+            <div style="margin-top:8px;color:var(--muted);font-size:14px">Hobbies: Reading, learning new testing methodologies, exploring AI applications in testing.</div>
+          </div>
+
+        </aside>
+      </div>
+
+      <footer>
+        Built for <strong>Ramya M</strong> — Test Engineer • Want changes? Upload your resumes and I will populate the site with exact roles, dates, and projects.
+        <div style="margin-top:12px;color:var(--muted);font-size:13px">Deployment: This single-file site is ready for GitHub Pages or Netlify. Create a repo, add this file as <code>index.html</code>, push, and enable Pages (branch: main). To deploy with Netlify, drag-and-drop the folder in the Netlify dashboard. 
+        <br/>Included files for download: /mnt/data/Ramya - Resume.pdf, /mnt/data/Ramya M -  Resume (1).pdf, /mnt/data/Photo.jpg</div>
+      </footer>
+    </div>
+  </div>
+<script>
+  // Theme toggle (persisted)
+  const toggle = document.getElementById('themeToggle');
+  const root = document.documentElement;
+  function setTheme(mode){
+    if(mode==='light') document.body.classList.add('light'); else document.body.classList.remove('light');
+    localStorage.setItem('theme', mode);
+  }
+  toggle.addEventListener('click',()=>{
+    const current = localStorage.getItem('theme') || 'dark';
+    setTheme(current==='dark'?'light':'dark');
+  });
+  // initialize
+  (function(){const saved = localStorage.getItem('theme')||'dark'; setTheme(saved);} )();
+</script>
+<style>
+  /* Light theme overrides */
+  body.light{background:linear-gradient(180deg,#f6f8fb 0%, #ffffff 100%);color:#0b1220}
+  body.light .card{background:linear-gradient(180deg,rgba(0,0,0,0.02),rgba(0,0,0,0.01));box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+  body.light .badge{background:rgba(11,18,32,0.03);color:#334155}
+  body.light .btn.secondary{background:transparent;border:1px solid rgba(11,18,32,0.06);color:#334155}
+  body.light a{color:#0b1220}
+</style>
+</body>
+</html>
